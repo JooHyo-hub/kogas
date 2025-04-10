@@ -1,0 +1,719 @@
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+span.mob_empty {
+    display: inline-block;
+}
+br.mob_space {
+    display: none;
+}
+br.pc_space{
+    display: block;
+}
+#main {
+    font-family: 'Pretendard-Regular';
+}
+.mt_0{margin-top: 0 !important;}
+/*banner // section02*/
+#main .bannerWrap {
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    padding-top: 80px;
+    box-sizing: border-box;
+    background: #FAFCE7;
+}
+#main .bannerWrap .banner_innerBox {
+    width: 100%;
+    max-width: 666px;
+    margin: 0 auto;
+    text-align: center;
+}
+#main .banner_innerBox .banner_top {
+    width: 100%;
+    position: relative;
+}
+#main .banner_top .mainImg{
+    width: 332px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -100px;
+    border-top-left-radius: 55%;
+    border-top-right-radius: 55%;
+    background: #33333385;
+}
+#main .banner_top .img_item1{
+    position: absolute;
+    top: 45%;
+    right: 14%;
+}
+#main .banner_top .column_Name{
+    width: 100%;
+    padding-top: 18px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#main .banner_innerBox .banner_btom {
+    width: 100%;
+    padding-top: 94px;
+}
+#main .banner_innerBox .banner_btom .text_container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 300;
+}
+#main .banner_btom .bannerText01 span{
+    display: inline-block;
+    width: auto;
+    vertical-align: -12px;
+}
+#main .banner_btom .bannerText02 {
+    padding: 40px 0;
+    overflow: hidden;
+}
+#main .banner_btom .bannerText02 .positR_Box {
+    width: 428px;
+    float: right;
+}
+#main .banner_btom .bannerText02 .arrowImg{
+    float: left;
+    margin-right: 17px;
+    transform: translateY(30px);
+}
+#main .banner_btom .bannerText03 {
+    clear: both;
+    box-sizing: border-box;
+}
+#main .banner_btom .bannerText03 .positBox {
+    width: 300px;
+    margin: 0 auto;
+}
+#main .banner_btom .bannerText03 span{
+    display: inline-block;
+    vertical-align: 8px;
+    font-weight: 500;
+}
+
+/*section02*/
+#section02 {
+    padding-top: 150px;
+}
+/*text box*/
+#section02 .text_wrap .introduct_box{
+    width: 792px;
+    height: 200px;
+    margin: 0 auto;
+}
+#section02 .text_wrap .introduct_box .introduct_text{
+    width: 94%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 16px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 34px;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+}
+.introduct_text img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#section02 .text_wrap .content {
+    width: 100%;
+    padding-top: 100px;
+}
+#section02 .text_wrap .content .text{
+    width: 100%;
+    max-width: 996px;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 33px;
+}
+#section02 .text_wrap .content p.text02{
+    padding-top: 36px;
+    padding-bottom: 52px;
+}
+/*img box*/
+#section02 .image_wrap {
+    width: 100%;
+    max-width: 1308px;
+    height: 622px;
+    margin: 0 auto;
+    position: relative;
+}
+#section02 .image_wrap .ImgGroup .img01_Box{
+    width: 588px;
+    position: absolute;
+    top: 100px;
+    z-index: 3;
+}
+#section02 .image_wrap .ImgGroup .img02_Box{
+    position: absolute;
+    right: 300px;
+    bottom: 0;
+    z-index: 2;
+}
+#section02 .image_wrap .ImgGroup .img03_Box{
+    width: 45%;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    
+}
+#section02 .image_wrap .ImgGroup .img03_Box img{
+    width: 100%;
+    object-fit: cover;
+}
+#section02 .ImgGroup .Icon01{
+    position: absolute;
+    left: 508px;
+    top: 60px;
+    z-index: 4;
+}
+#section02 .ImgGroup .Icon02{
+    position: absolute;
+    left: -110px;
+    top: 130px;
+    z-index: 4;
+}
+#section02 .ImgGroup .Icon03{
+    position: absolute;
+    right: 180px;
+    bottom: 10px;
+    z-index: 4;
+}
+#section02 .ImgGroup .Icon04{
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+}
+/*section04*/
+.section04 {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+/*프로필01*/
+.section04 .profile_wrap{
+    width: 100%;
+    max-width: 1056px;
+    margin: 0 auto;
+}
+.section04 .profile_wrap .person{
+    display: flex;
+    justify-content: space-between;
+}
+.section04 .profile_wrap .person02{
+    flex-direction: row-reverse;
+    margin-top: 77px;
+}
+.section04 .profile_wrap .person .imgBox{
+    text-align: center;
+    position: relative;
+}
+.section04 .profile_wrap .person01 .imgBox{
+    width: 360px;
+    height: 364px;
+}
+.section04 .profile_wrap .person02 .imgBox{
+    width: 475px;
+    height: 364px;
+}
+.section04 .profile_wrap .person01 .imgBox .personImg{
+    overflow: hidden;
+}
+.section04 .profile_wrap .person02 .imgBox .personImg{
+    overflow: hidden;
+}
+.section04 .profile_wrap .person .imgBox .nameplate {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section04 .profile_wrap .person01 .imgBox .nameplate {
+    bottom: -10px;
+}
+.section04 .profile_wrap .person .person_introduct {
+    box-sizing: border-box;
+    font-size: 28px;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+}
+.section04 .profile_wrap .person .person_introduct > p::before {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 23px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background: url(../img_sub2/quotes-left.svg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.section04 .profile_wrap .person .person_introduct > p::after {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 23px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: url(../img_sub2/quotes-right.svg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.section04 .profile_wrap .person01 .person_introduct{
+    width: calc(100% - 38%);
+    padding-top: 16px;
+}
+.section04 .profile_wrap .person02 .person_introduct{
+    width: calc(100% - 49.9%);
+    padding-top: 38px;
+}
+.section04 .profile_wrap .person .person_introduct .starimg{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.section04 .profile_wrap .person .person_introduct .starimg01 {
+    right: 180px;
+}
+.section04 .profile_wrap .explanat {
+    margin-top: 114px;
+    font-size: 19px;
+    line-height: 33px;
+    font-weight: 500;
+}
+/*퀴즈*/
+.section04 .quizeTime {
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    max-width: 792px;
+    margin: 0 auto;
+}
+.section04 .quizeTime .quize_box{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.section04 .quizeTime .quize_box img{
+    width: 100%;
+}
+.section04 .quizeTime .quize_box p{
+    width: 100%;
+    font-family: 'GmarketSansMedium';
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+    color: #0E2764;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    word-spacing: -1px;
+}
+.section04 .quizeTime .videoBox{
+    width: 100%;
+    padding-top: 60px;
+    overflow: hidden;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.section04 .quizeTime .videoBox img{
+    width: 100%;
+}
+.section04 .quizeTime .check_Video{
+    font-family: 'GmarketSansMedium';
+    width: 100%;
+    padding-top: 60px;
+    font-size: 20px;
+    line-height: 32px;
+    word-spacing: -1px;
+    color: #0E2764;
+}
+.section04 .quizeTime .check_Video span{
+    background: #FDD901;
+    display: inline-block;
+    margin-left: -4px;
+    padding: 0 4px;
+}
+.section04 .quizeTime .check_Video span:nth-child(1){
+    margin-bottom: 6px;
+}
+/*section06*/
+#main .section06 {
+    background: #46E7E3;
+}
+#main .profile_wrap .person01 .personImg {
+    border-radius: 0px !important;
+}
+#main .profile_wrap .person02 .personImg {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+#main .profile_wrap .person03 .person_introduct {
+    padding-top: 88px !important;
+}
+#main .profile_wrap .person04 .person_introduct {
+    padding-top: 52px !important;
+}
+#main .section06 .profile_wrap .person03 .imgBox .nameplate{
+    bottom: -70px !important;
+}
+.section06 .profile_wrap .person02 .person_introduct{
+    padding-top: 58px !important;
+}
+
+/*section07*/
+#section07 {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #FAFCE7;
+}
+#section07 .applicat_wrap{
+    width: 100%;
+    max-width: 714px;
+    margin: 0 auto;
+    text-align: center;
+}
+#section07 .applicat_wrap .applicat_img img{
+    max-width: 350px;
+    margin: 0 auto;
+}
+#section07 .applicat_wrap p{
+    padding-top: 51px;
+    font-family: 'GmarketSansMedium';
+    color: #0E2764;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    word-spacing: -1px;
+}
+#section07 .applicat_wrap .applicatBtn{
+    width: auto;
+    padding-top: 43px;
+    border: none;
+    background: transparent;
+}
+
+
+
+
+
+
+
+/*반응형*/
+@media (max-width: 1466px) {
+    #section02 .image_wrap {
+        width: 100%;
+        max-width: 588px;
+        height: auto !important;
+        margin-top: 20px;
+        padding-top: 77px;
+        padding-bottom: 120px;
+        text-align: center;
+    }
+    #section02 .image_wrap .ImgGroup .img01_Box {
+        width: 100%;
+        max-width: 588px;
+        height: 288px;
+        overflow: hidden;
+        margin: 0 auto;
+        position: static;
+    }
+    #section02 .image_wrap .ImgGroup .img02_Box {
+        width: 100%;
+        max-width: 588px;
+        height: 288px;
+        overflow: hidden;
+        margin: 56px auto;
+        position: static;
+        top: 30px;
+        right: 0;
+        bottom: 0;
+    }
+    #section02 .image_wrap .ImgGroup .img03_Box {
+        width: 100%;
+        max-width: 588px;
+        height: 288px;
+        overflow: hidden;
+        margin: 0 auto;
+        position: static;
+        top: 30px;
+    }
+    #section02 .image_wrap .ImgGroup .img01_Box img{
+        width: 100%;
+        object-fit: cover;
+    }
+    #section02 .image_wrap .ImgGroup .img02_Box img{
+        width: 100%;
+        object-fit: cover;
+    }
+    #section02 .image_wrap .ImgGroup .img03_Box img{
+        width: 100%;
+        object-fit: cover;
+    }
+    #section02 .ImgGroup .Icon01 {
+        transform: scale(0.8);
+        left: auto;
+        right: -16px;
+        top: -10px;
+    }
+    #section02 .ImgGroup .Icon02 {
+        left: 0;
+        top: 330px;
+    }
+    #section02 .ImgGroup .Icon03 {
+        transform: scale(0.8);
+        right: -18px;
+        bottom: 300px;
+    }
+    #section02 .ImgGroup .Icon04{
+        display: block;
+        left: 50%;
+        bottom: 30px;
+        transform: translateX(-50%);
+    }
+}
+@media (max-width: 1068px) {
+    .section04 .profile_wrap .person {
+        display: block;
+    }
+    .section04 .profile_wrap .person01 .imgBox {
+        margin: 0 auto;
+    }
+    .section04 .profile_wrap .person01 .person_introduct {
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    .section04 .profile_wrap .person02 {
+        margin-top: 100px;
+    }
+    .section04 .profile_wrap .person02 .imgBox {
+        margin: 0 auto;
+    }
+    .section04 .profile_wrap .person02 .person_introduct {
+        margin: 0 auto;
+        margin-top: 40px !important;
+    }
+    .section04 .profile_wrap {
+        max-width: 800px;
+    }
+    .section04 .profile_wrap .person .person_introduct {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .section04 .profile_wrap .person .person_introduct .starimg01 {
+        top: 100px;
+        left: 72%;
+    }
+    .section04 .profile_wrap .person .person_introduct .starimg02 {
+        top: 260px;
+        left: -260px;
+    }
+}
+@media (max-width: 1040px) {
+    /*section02*/
+    #section02{
+        padding-top: 150px;
+    }
+    #section02 .text_wrap .content .text {
+        max-width: 800px;
+    }
+}
+@media (max-width: 824px) {
+    #main .bannerWrap .banner_innerBox {
+        padding: 0 30px;
+    }
+    #section02 {
+        padding: 0 30px;
+        padding-top: 60px;
+    }
+    #section02 .text_wrap .content {
+        
+        padding-top: 100px;
+    }
+    #section02 .text_wrap .introduct_box {
+        width: 50%;
+        min-width: 403px;
+        height: 520px;
+        margin: 0 auto;
+    }
+    #section02 .text_wrap .introduct_box .introduct_text {
+        text-align: left;
+    }
+    .section03 .slide-wrap,  .section03 .slide-list {
+        height: 80px !important;
+    }
+    br.mob_space{
+        display: block;
+    }
+    br.pc_space{
+        display: none;
+    }
+    span.mob_empty {
+        display: block;
+        margin-top: 62px;
+    }
+    #home .section04 {
+        padding: 60px 30px;
+    }
+    .section04 .quizeTime .quize_box {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #section07 .applicat_wrap {
+        padding: 60px 30px;
+    }
+    
+}
+@media (max-width: 692px) {
+    #section02 .text_wrap .introduct_box .introduct_text {
+        font-size: 17px;
+        line-height: 31px;
+        padding-top: 48px;
+    }
+    #home .section03 .slide-wrap .slide-list .img-box {
+        height: 120px !important;
+        padding: 10px 0;
+        box-sizing: border-box;
+        line-height: 120px;
+        border-radius: 20px;
+        background: #ccc !important;
+        font-size: 20px;
+    }
+    .section04 .profile_wrap .person .person_introduct {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .section04 .profile_wrap .explanat {
+        font-size: 17px;
+        line-height: 33px;
+    }
+    .section04 .quizeTime .quize_box {
+        width: 100%;
+    }
+    .section04 .quizeTime .quize_box p {
+        line-height: 34px;
+    }
+}
+@media (max-width: 564px) {
+    #main .bannerWrap .banner_innerBox {
+        width: 100%;
+        max-width: 400px;
+    }
+    #main .banner_innerBox .banner_top .title_img{
+        width: 100%;
+    }
+    #main .banner_top .mainImg {
+        margin-top: -57px;
+    }
+    #main .banner_top .img_item1 {
+        transform: scale(0.7);
+        top: 30%;
+        right: -5%;
+    }
+    #main .banner_innerBox .banner_btom {
+        padding-top: 64px;
+    }
+    #main .banner_innerBox .banner_btom .text_container {
+        font-size: 26px;
+    }
+    #main .banner_btom .bannerText02 .positR_Box {
+        width: 294px;
+    }
+    #section02 .text_wrap .introduct_box {
+        min-width: 340px;
+        margin-left: -30px;
+        margin-right: 30px;
+    }
+    #section02 .text_wrap .content {
+        padding-top: 44px;
+    }
+    .section04 .profile_wrap {
+        max-width: auto !important;
+    }
+    .section04 .profile_wrap .person02 .imgBox {
+        width: 320px;
+        height: 237px;
+    }
+    .section04 .profile_wrap .person01 .imgBox {
+        width: 320px;
+        height: 320px;
+    }
+    .section04 .profile_wrap .person02 .imgBox img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .section04 .profile_wrap .person01 .imgBox {
+        width: 320px;
+        height: 320px;
+    }
+    .section04 .profile_wrap .person01 .imgBox img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .section04 .profile_wrap .person01 .person_introduct {
+        width: 100%;
+    }
+    .section04 .profile_wrap .person02 .person_introduct {
+        width: 100%;
+    }
+    .section04 .quizeTime .check_Video span:nth-child(1){
+        margin-bottom: 0px;
+    }
+    .section04 .quizeTime .check_Video span:nth-child(2){
+        margin: 6px 0;
+    }
+    #main .section06 .profile_wrap .person03 .imgBox .nameplate {
+        bottom: -40px !important;
+    }
+}
+
+@media (max-width: 430px) {
+    span.br {
+        display: block !important;
+    }
+    .quizeTime p{
+        width: 85%;
+    }
+    #section07 .applicat_img img{
+        width: 90%;
+    }
+    #main .banner_top .mainImg {
+        width: 100%;
+    }
+}
